@@ -484,8 +484,8 @@ export default Vue.extend({
           class: {
             'q-tree__node--link q-hoverable q-focusable': meta.link,
             'q-tree__node--selected': meta.selected,
-            'q-tree__node--disabled': meta.disabled,
-            'q-tree__node--expanded': meta.expanded
+            'q-tree__node--expanded': meta.expanded,
+            'q-tree__node--disabled': meta.disabled
           },
           attrs: { tabindex: meta.link ? 0 : -1 },
           on: {
